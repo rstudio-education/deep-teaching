@@ -1,0 +1,16 @@
+---
+title: "Learner Personas"
+output: html_document
+---
+
+## Nathan Lopp
+
+Nathan is an expert on RStudio products with good people skills. He has no formal teacher training, which is odd because his job is to teach people how to solve their problems with R and RStudio. Or at least it could be if people would only learn. Nathan provides documentation, demos, and answers to customers, but at the end of the day he finds himself solving customers' problems for them. He's begun to wonder if there is a better way. Nathan doesn't plan to teach in person workshops, but he'd like to make sure that he is teaching effectively as possible through his writing, conversations, and talks.
+
+## Phil Filz
+
+Phil is passionate about the good that RStudio is doing, and he wants to spread the message as if his job depends on it, which it does. Moreover, Phil sincerely wants to help the people he's built relationships with. He knows that RStudio will help them, but it is not always easy to explain RStudio products in a way that people understand. Phil sees the connection between what he is doing and education, and he's eager to check that he's using the best education practices. Phil is willing to teach in person workshops when asked, but he knows that most of his educating occurs through short interactions, like conversations and site visits.
+
+## Edgar Allen
+
+If you have a problem related to server administration or statistical modelling, Edgar is the person to solve it. He's spent his career developing a rare and highly-technical skillset. As a result, Edgar is frequently asked to help teach non-experts. Edgar thinks he does a great job in the classroom. Each of his explanations is precise, concise, and logical—just like his server code. Edgar knows that he is providing valuable information to students, but his co-teachers have suggested that he learn more about teaching. Edgar will apply the tips to his next workshop, or maybe the infrequent customer call. He hasn't thought of it yet, but he'll also apply what he learns to the documentation that he frequently writes.
