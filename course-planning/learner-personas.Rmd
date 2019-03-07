@@ -1,0 +1,16 @@
+---
+title: "Learner Personas"
+output: html_document
+---
+
+## Ingrid Engineer
+
+Ingrid is an expert on RStudio products with good people skills. She has no formal teacher training, which is odd because her job is to teach people how to solve their problems with R and RStudio. Or at least it could be if people would only learn. Ingrid provides documentation, demos, and answers to customers, but at the end of the day she finds himself solving customers' problems for them. She's begun to wonder if there is a better way. Ingrid doesn't plan to teach in person workshops, but she'd like to make sure that she is teaching effectively as possible through her writing, conversations, and talks.
+
+## Sally Sales
+
+Sally is passionate about the good that RStudio is doing, and she wants to spread the message as if her job depends on it, which it does. Moreover, Sally sincerely wants to help the people she's built relationships with. She knows that RStudio will help them, but it is not always easy to explain RStudio products in a way that people understand. Sally sees the connection between what she is doing and education, and she's eager to check that she's using the best education practices. Sally is willing to teach in person workshops when asked, but she knows that most of her educating occurs through short interactions, like conversations and site visits.
+
+## Eddie Expert
+
+If you have a problem related to server administration or statistical modelling, Eddie is the person to solve it. He's spent his career developing a rare and highly-technical skillset. As a result, Eddie is frequently asked to help teach non-experts. Eddie thinks he does a great job in the classroom. Each of his explanations is precise, concise, and logical—just like his server code. Eddie knows that he is providing valuable information to students, but his co-teachers have suggested that he learn more about teaching. Eddie will apply the tips to his next workshop, or maybe the infrequent customer call. He hasn't thought of it yet, but he'll also apply what he learns to the documentation that he frequently writes.
