@@ -13,11 +13,13 @@ date_to_clock_time <- function(per) {
   paste(h, m, sep = ":")
 }
 
-timer <- function(start = "9:00") {
-  if (!is.character(start))
-    stop("Start should be a character string that expresses a clock time.")  
+timer <- function(start_date, start_time = "9:00") {
+  if (!is.character(start_date))
+    stop("Start date should be a character string that expresses a YYYY-MM-DD date.")
+  if (!is.character(start_time))
+    stop("Start time should be a character string that expresses a HH:MM clock time.")  
     
-  start_time <- ymd("2019-03-19") + hm(start)
+  start_time <- ymd(start_date) + hm(start_time)
   spent <- minutes(0)
   
   function(min) {
@@ -33,8 +35,8 @@ timer <- function(start = "9:00") {
   }
 }
 
-day_1 <- timer("9:00")
-day_2 <- timer("9:00")
+day_1 <- timer("2019-03-19", "9:00")
+day_2 <- timer("2019-03-20", "9:00")
 ```
 
 
@@ -45,19 +47,19 @@ All material made available under the [Creative Commons Attribution-NonCommercia
 
 ## Instructors
 
-- Garrett Grolemund
-- Greg Wilson
+- [Garrett Grolemund](https://resources.rstudio.com/authors/garrett-grolemund)
+- [Greg Wilson](http://third-bit.com)
 
 ## Day 1
 
 1.  Getting Started/Two Ways to Teach `r day_1(10)` - **Greg**
-    -   <./keynote/00-introductions.key>
-    -   <./keynote/10-two-ways-to-teach.key>
+    -   `./keynote/00-introductions.key`
+    -   `./keynote/10-two-ways-to-teach.key`
     -   Poll participants on how they learn better. Then point out that this doesn't align with how people normally teach: lecture to "transfer" information.
     -   Tell participants there's lots of research (much of which people don't know/act on)
 
 1.  Novice/Competent Practitioner/Expert `r day_1(45)` - **Greg**
-    -   <./keynote/20-novice-competent-expert.key>
+    -   `./keynote/20-novice-competent-expert.key`
     -   Mental models
         -   Emphasize linkages: we rarely forget completely, but we lose the ability to retrieve
     -   Mental models don't have to be right to be useful (ball-and-spring models in chemistry)
@@ -71,9 +73,9 @@ All material made available under the [Creative Commons Attribution-NonCommercia
     -   **Exercise**: draw and compare concept maps for RStudio's professional products
 
 1.  The Cognitive Craft `r day_1(45)` - **Garrett**
-    -   <./keynote/40-cognitive-craft.key>
-    -   Revisit cognitive architecture diagram and graph model of memory
-    -   Introduce 7 +/- 2
+    -   `./keynote/40-cognitive-craft.key`
+    -   Introduce cognitive architecture diagram
+    -   Introduce 7±2
     -   Lesson "scenes" should fit into working memory
         -   Use exercises/discussion/elaborative examples to keep new material there long enough to be transcribed
     -   Poll - What's better at conveying a mental model: Explanations or Exercises?
@@ -94,7 +96,6 @@ All material made available under the [Creative Commons Attribution-NonCommercia
 
 1. Two Ways to Teach/Formative Assessment `r day_1(35)` - **Greg**
     -   Active vs. passive learners
-    -   Introduce cognitive architecture diagram
         -   Teaching is "load into short-term memory and keep it there long enough to be transferred"
     -   Explain what active learning is: creates a real-time feedback loop in class
     -   Importance of feedback loop while teaching (for instructor as well as learners)
@@ -104,13 +105,13 @@ All material made available under the [Creative Commons Attribution-NonCommercia
     -   **Exercise**: create question to figure out what someone on a support call doesn't understand (diagnose misconceptions)
 
 1.  Teaching as Performance I `r day_1(30)` - **Greg**
-    -   <./keynote/30-teaching-as-performance-1.key>
+    -   `./keynote/30-teaching-as-performance-1.key`
     -   Critique the Nederbragt videos
-        -   Bad: <https://youtu.be/bXxBeNkKmJE>
-        -   Good: <https://youtu.be/SkPmwe_WjeY>
-    -   **Exercise**: teach in pairs: live coding / webinar style
-        -   No recording
-    - **Homework** - Create a few slides that you could use to re-teach your content tomorrow, along with the script you will try to stick to.
+        -   [Bad](https://youtu.be/bXxBeNkKmJE)
+        -   [Good](https://youtu.be/SkPmwe_WjeY)
+    -   **Exercise**: teach in pairs: live coding / webinar style (no recording)
+
+1.  **Homework**: Create a few slides that you could use to re-teach your content tomorrow, along with the script you will try to stick to.
 
 ## Day 2
 
@@ -124,30 +125,30 @@ All material made available under the [Creative Commons Attribution-NonCommercia
     -   Do they make sense in terms of unconscious incompetence - to - unconscious incompetence?
     -   Bloom's Taxonomy (very briefly, with caveats)
         -   Google isn't enough if you don't know what to search for or how to recognize a useful answer when you find one
-        -   GG added "awareness" to the bottom of the Bloom hierarchy since it's the most realistic goal for a workshop like this
+        -   Grolemund added "awareness" to the bottom of the Bloom hierarchy since it's the most realistic goal for a workshop like this
 
 1.  Motivation `r day_2(30)` - **Greg**
-    -   <./keynote/70-motivation.key>
+    -   `./keynote/70-motivation.key`
     -   If the student needs to expend the generative load, your job is to motivate them to do it
     -   Three big motivators: self-efficacy, utility, community
     -   Three big demotivators: unpredictability, unfairness, indifference
     -   Zone of Proximal Development
     -   **Exercise**: what demotivates people in programming demos and how do we prevent/fix it?
     -   **Question**: can R syntax itself be demotivating?
-        - Study where PERL syntax was as hard to use as random symbols
+        -   [Study](http://neverworkintheory.org/2014/01/29/stefik-siebert-syntax.html) where Perl syntax was as hard to use as random symbols
     
 1.  Multimedia Learning `r day_2(45)` - **Garrett**
-    -   <./keynote/80-multimedia-learning.key>
+    -   `./keynote/80-multimedia-learning.key`
     -   Dual coding theory
-        -   Revisit cognitive architecture diagram again: signals are competing for channels
+        -   Revisit cognitive architecture diagram: signals are competing for channels
     -   Critique some bad slides
-    -   **Exercise** - Take the slides that you made; make them more visual, altering your script if necessary.
-    -   **Exercise** - Do it again pushing it even farther.
+    -   **Exercise**: Take the slides that you made; make them more visual, altering your script if necessary.
+    -   **Exercise**: Do it again pushing it even farther.
     
 1.  Coffee `r day_2(15)`
 
 1.  Teaching as Performance II `r day_2(30)` - **Greg**
-    -   <./keynote/60-teaching-as-performance-2.key>
+    -   `./keynote/60-teaching-as-performance-2.key`
     -   Use the previous day's rubric
     -   Two groups, everyone talks over the graphic they made overnight
 
