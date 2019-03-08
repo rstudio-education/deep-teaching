@@ -8,16 +8,17 @@ license.
 
 ## Instructors
 
-  - Garrett Grolemund
-  - Greg Wilson
+  - [Garrett
+    Grolemund](https://resources.rstudio.com/authors/garrett-grolemund)
+  - [Greg Wilson](http://third-bit.com)
 
 ## Day 1
 
 1.  Getting Started/Two Ways to Teach <em>(9:00 - 9:10, 10min)</em> -
     **Greg**
     
-      - \<./keynote/00-introductions.key\>
-      - \<./keynote/10-two-ways-to-teach.key\>
+      - `./keynote/00-introductions.key`
+      - `./keynote/10-two-ways-to-teach.key`
       - Poll participants on how they learn better. Then point out that
         this doesn’t align with how people normally teach: lecture to
         “transfer” information.
@@ -27,7 +28,7 @@ license.
 2.  Novice/Competent Practitioner/Expert <em>(9:10 - 9:55, 45min)</em> -
     **Greg**
     
-      - \<./keynote/20-novice-competent-expert.key\>
+      - `./keynote/20-novice-competent-expert.key`
       - Mental models
           - Emphasize linkages: we rarely forget completely, but we lose
             the ability to retrieve
@@ -46,9 +47,9 @@ license.
 
 3.  The Cognitive Craft <em>(9:55 - 10:40, 45min)</em> - **Garrett**
     
-      - \<./keynote/40-cognitive-craft.key\>
-      - Revisit cognitive architecture diagram and graph model of memory
-      - Introduce 7 +/- 2
+      - `./keynote/40-cognitive-craft.key`
+      - Introduce cognitive architecture diagram
+      - Introduce 7±2
       - Lesson “scenes” should fit into working memory
           - Use exercises/discussion/elaborative examples to keep new
             material there long enough to be transcribed
@@ -77,7 +78,6 @@ license.
     35min)</em> - **Greg**
     
       - Active vs. passive learners
-      - Introduce cognitive architecture diagram
           - Teaching is “load into short-term memory and keep it there
             long enough to be transferred”
       - Explain what active learning is: creates a real-time feedback
@@ -93,15 +93,16 @@ license.
 
 6.  Teaching as Performance I <em>(11:30 - 12:00, 30min)</em> - **Greg**
     
-      - \<./keynote/30-teaching-as-performance-1.key\>
+      - `./keynote/30-teaching-as-performance-1.key`
       - Critique the Nederbragt videos
-          - Bad: <https://youtu.be/bXxBeNkKmJE>
-          - Good: <https://youtu.be/SkPmwe_WjeY>
-      - **Exercise**: teach in pairs: live coding / webinar style
-          - No recording
-      - **Homework** - Create a few slides that you could use to
-        re-teach your content tomorrow, along with the script you will
-        try to stick to.
+          - [Bad](https://youtu.be/bXxBeNkKmJE)
+          - [Good](https://youtu.be/SkPmwe_WjeY)
+      - **Exercise**: teach in pairs: live coding / webinar style (no
+        recording)
+
+7.  **Homework**: Create a few slides that you could use to re-teach
+    your content tomorrow, along with the script you will try to stick
+    to.
 
 ## Day 2
 
@@ -120,12 +121,13 @@ license.
       - Bloom’s Taxonomy (very briefly, with caveats)
           - Google isn’t enough if you don’t know what to search for or
             how to recognize a useful answer when you find one
-          - GG added “awareness” to the bottom of the Bloom hierarchy
-            since it’s the most realistic goal for a workshop like this
+          - Grolemund added “awareness” to the bottom of the Bloom
+            hierarchy since it’s the most realistic goal for a workshop
+            like this
 
 2.  Motivation <em>(9:20 - 9:50, 30min)</em> - **Greg**
     
-      - \<./keynote/70-motivation.key\>
+      - `./keynote/70-motivation.key`
       - If the student needs to expend the generative load, your job is
         to motivate them to do it
       - Three big motivators: self-efficacy, utility, community
@@ -134,26 +136,28 @@ license.
       - Zone of Proximal Development
       - **Exercise**: what demotivates people in programming demos and
         how do we prevent/fix it?
-      - **Question**: can R syntax itself be demotivating?
-          - Study where PERL syntax was as hard to use as random symbols
+      - **Question**: can R syntax itself be
+            demotivating?
+          - [Study](http://neverworkintheory.org/2014/01/29/stefik-siebert-syntax.html)
+            where Perl syntax was as hard to use as random symbols
 
 3.  Multimedia Learning <em>(9:50 - 10:35, 45min)</em> - **Garrett**
     
-      - \<./keynote/80-multimedia-learning.key\>
+      - `./keynote/80-multimedia-learning.key`
       - Dual coding theory
-          - Revisit cognitive architecture diagram again: signals are
+          - Revisit cognitive architecture diagram: signals are
             competing for channels
       - Critique some bad slides
-      - **Exercise** - Take the slides that you made; make them more
+      - **Exercise**: Take the slides that you made; make them more
         visual, altering your script if necessary.
-      - **Exercise** - Do it again pushing it even farther.
+      - **Exercise**: Do it again pushing it even farther.
 
 4.  Coffee <em>(10:35 - 10:50, 15min)</em>
 
 5.  Teaching as Performance II <em>(10:50 - 11:20, 30min)</em> -
     **Greg**
     
-      - \<./keynote/60-teaching-as-performance-2.key\>
+      - `./keynote/60-teaching-as-performance-2.key`
       - Use the previous day’s rubric
       - Two groups, everyone talks over the graphic they made overnight
 
