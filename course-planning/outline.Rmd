@@ -53,13 +53,13 @@ All material made available under the [Creative Commons Attribution-NonCommercia
 ## Day 1
 
 1.  Getting Started/Two Ways to Teach `r day_1(10)` - **Greg**
-    -   `./keynote/00-introductions.key`
-    -   `./keynote/10-two-ways-to-teach.key`
-    -   Poll participants on how they learn better. Then point out that this doesn't align with how people normally teach: lecture to "transfer" information.
+    -   `./keynotes/01-Getting-Started.key`
+    -   Poll participants on how they learn better.
+    -   Then point out that this doesn't align with how people normally teach: lecture to "transfer" information.
     -   Tell participants there's lots of research (much of which people don't know/act on)
 
 1.  Novice/Competent Practitioner/Expert `r day_1(45)` - **Greg**
-    -   `./keynote/20-novice-competent-expert.key`
+    -   `./keynotes/02-Mental-Models.key`
     -   Mental models
         -   Emphasize linkages: we rarely forget completely, but we lose the ability to retrieve
     -   Mental models don't have to be right to be useful (ball-and-spring models in chemistry)
