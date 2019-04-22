@@ -9,4 +9,4 @@ You've put deep learning on your to-do list, but how about deep teaching? This o
 - teaching as a performance art; and
 - what motivates and demotivates adult learners.
 
-For more information, please contact [Garrett Grolemund](garrett@rstudio.com) or [Greg Wilson](greg.wilson@rstudio.com).
+For more information, please contact [Garrett Grolemund](mailto:garrett@rstudio.com) or [Greg Wilson](mailto:greg.wilson@rstudio.com).
